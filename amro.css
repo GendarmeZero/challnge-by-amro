@@ -409,8 +409,7 @@
 .line_base {
     display: flex;
     flex-direction: row;
-
-
+    width: 600px;
 }
 
 .line01 {
@@ -573,11 +572,6 @@
 }
 
 /* media */
-@media (min-width: 3840px) {
-    body {
-        transform: scale(2);
-        /* Scale factor for 4K */
-        transform-origin: top left;
-        /* Set the origin to top left to scale from top left corner */
-    }
+@media only screen and (max-width: 600px) {
+
 }
